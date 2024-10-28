@@ -1,0 +1,45 @@
+angus@raspberrypi:~/LORA_PI_RX $ sudo python3 Chat-v06.py
+LoRa Receiver Ready
+Raw packet bytes: bytearray(b'\x00\x00\x00\x92$001.67:15.62:15.78:0926:59.')
+Decoded packet: $001.67:15.62:15.78:0926:59.
+Packet does not start with the expected character.
+Raw packet bytes: bytearray(b'$002.01:15.62:15.79:0926:58.95\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $002.01:15.62:15.79:0926:58.952
+Parsed values: ['002.01', '15.62', '15.79', '0926', '58.95\x192']
+Parsed Data - SM: 002.01, ST: 15.62, AT: 15.79, AP: 0926, AH: 58.952
+Raw packet bytes: bytearray(b'$000.88:15.56:15.79:0926:58.91\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $000.88:15.56:15.79:0926:58.912
+Parsed values: ['000.88', '15.56', '15.79', '0926', '58.91\x192']
+Parsed Data - SM: 000.88, ST: 15.56, AT: 15.79, AP: 0926, AH: 58.912
+Raw packet bytes: bytearray(b'$002.06:15.62:15.79:0926:58.96\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $002.06:15.62:15.79:0926:58.962
+Parsed values: ['002.06', '15.62', '15.79', '0926', '58.96\x192']
+Parsed Data - SM: 002.06, ST: 15.62, AT: 15.79, AP: 0926, AH: 58.962
+Raw packet bytes: bytearray(b'$001.08:15.62:15.78:0926:58.98\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $001.08:15.62:15.78:0926:58.982
+Parsed values: ['001.08', '15.62', '15.78', '0926', '58.98\x192']
+Parsed Data - SM: 001.08, ST: 15.62, AT: 15.78, AP: 0926, AH: 58.982
+Raw packet bytes: bytearray(b'$001.23:15&=>:1u,\x13z:\xf6i\xfe\xfa\xf35h[<\x18\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $001.23:15&=>:1u,z:i5h[<2
+Parsed values: ['001.23', '15&=>', '1u,\x13z', 'i5h[<\x18\x192']
+Data format mismatch or incorrect length.
+Raw packet bytes: bytearray(b'$001.08:15.62:15.78:0926:58.99\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $001.08:15.62:15.78:0926:58.992
+Parsed values: ['001.08', '15.62', '15.78', '0926', '58.99\x192']
+Parsed Data - SM: 001.08, ST: 15.62, AT: 15.78, AP: 0926, AH: 58.992
+Raw packet bytes: bytearray(b'$001.52:15.62:15.78:0926:59.05\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $001.52:15.62:15.78:0926:59.052
+Parsed values: ['001.52', '15.62', '15.78', '0926', '59.05\x192']
+Parsed Data - SM: 001.52, ST: 15.62, AT: 15.78, AP: 0926, AH: 59.052
+Raw packet bytes: bytearray(b'$001.43:15.62:15.77:0926:59.07\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $001.43:15.62:15.77:0926:59.072
+Parsed values: ['001.43', '15.62', '15.77', '0926', '59.07\x192']
+Parsed Data - SM: 001.43, ST: 15.62, AT: 15.77, AP: 0926, AH: 59.072
+Raw packet bytes: bytearray(b'$001.23:15.56:15.77:0926:59.09\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $001.23:15.56:15.77:0926:59.092
+Parsed values: ['001.23', '15.56', '15.77', '0926', '59.09\x192']
+Parsed Data - SM: 001.23, ST: 15.56, AT: 15.77, AP: 0926, AH: 59.092
+Raw packet bytes: bytearray(b'$001.08:15.56:15.77:0926:59.01\x8a\x87\xb1\x19\xbc2')
+Decoded packet: $001.08:15.56:15.77:0926:59.012
+Parsed values: ['001.08', '15.56', '15.77', '0926', '59.01\x192']
+Parsed Data - SM: 001.08, ST: 15.56, AT: 15.77, AP: 0926, AH: 59.012
